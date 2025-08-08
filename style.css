@@ -1,0 +1,133 @@
+body {
+    overflow: visible;
+    text-align: center;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 2rem;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #111111;
+	color: #222222;
+}
+
+#aboutMe {
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(251, 249, 249, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05)    
+}
+
+p {
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05)    
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.whiteText {
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05)
+}
+
+#bodyBackgroundImage {
+    background-image: url("coding.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 220px;
+    object-fit: cover;
+}
+
+h1, h2 {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 0.25rem;
+}
+
+.project {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#summarize {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05)
+}
+
+.footer {
+	margin-top: 3rem;
+	font-size: 0.9rem;
+	color: #ffffff;
+	text-align: center;
+
+	background-color: grey;
+}
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+    display: flex;
+}
+
+.achievementImg {
+    margin-left: 1px;
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+    margin: 10px;
+	background: rgba(247, 222, 222, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#jumpscare {
+    margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 112, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#nuImg {
+    background-image: url("nu.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 620px;
+    z-index: 4;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1.5rem;
+	padding: 3px;
+    margin: 10px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
